@@ -1,0 +1,76 @@
+body{
+		heigth:auto;
+		width:100%;
+		overflow-x:hidden;
+		background-color:white;
+				}
+
+h1{
+  text-align:center;
+  margin-top:2em;
+  font-family:Cursive;
+  }
+  
+  div{
+  				padding:20px;
+  				border-radius:5px;
+  				background-color:#ff7496;
+  				}
+
+input[type=text]{
+		display:inline;
+  width:100%;
+  padding:20px 30px;
+  margin-bottom:10px;
+  border:none;
+  border-radius:8px;
+  cursor:pointer;
+  outline:none;
+   }
+
+input[type=password]{
+		display:inline;
+  width:100%;
+  padding:20px 30px;
+  margin-bottom:20px;
+  border:none;
+  border-radius:8px;
+  cursor:pointer;
+  outline:none;
+   }
+   
+
+   
+input[type=submit]{
+		display:inline;
+  width:100%;
+  padding:15px 20px;
+  margin-top:20px;
+  margin-bottom:20px;
+  border:none;
+  border-radius:8px;
+  cursor:pointer;
+  background-color:#5d6dff;
+  color:white;
+  outline:none;
+   }
+   
+p{
+	text-align:center;	
+		}
+		
+a{
+	text-decoration:none;			
+	}
+			
+
+footer{ 
+				position:absolute; 
+				background-color:darkgrey;
+			 width:100%; text-align:center;
+			  } 
+	@media screen and (max-width:480px){ html{ font-size: 16px; } body{ width: 100%; height: auto; } footer{ position:absolute; background-color:darkgrey; width:100%; text-align:center; bottom:0px; right:0px; left:0px; padding:5px;}}
+	
+	
+	@media screen and (min-width:680px){ html{ font-size: 20px; } body{ width: 100%; height: auto;}footer{ position:fixed; background-color:darkgrey; width:100%; text-align:center; bottom:0px; right:0px; left:0px;}}
+

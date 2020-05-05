@@ -1,0 +1,77 @@
+body{
+		heigth:auto;
+		width:100%;
+		overflow-x:hidden;
+		background-color:#a8a8a8;
+				}
+
+h1{
+  text-align:center;
+  margin-top:2em;
+  font-family:Cursive;
+  }
+  
+  div{
+  				padding:20px;
+  				border-radius:5px;
+  				background-color:;
+  				}
+
+input[type=text]{
+		display:inline;
+  width:100%;
+  padding:30px 30px;
+  margin-bottom:10px;
+  border:none;
+  border-radius:8px;
+  cursor:pointer;
+  outline:none;
+   }
+
+input[type=password]{
+		display:inline;
+  width:100%;
+  padding:30px 30px;
+  margin-bottom:20px;
+  border:none;
+  border-radius:8px;
+  cursor:pointer;
+  outline:none;
+   }
+   
+input[type=checkbox]{
+   width:20px;
+   height:20px;
+   
+   }
+
+span{
+				display:inline;
+			margin-left:auto;	
+			float:right;
+				}
+   
+input[type=submit]{
+		display:inline;
+  width:100%;
+  padding:15px 20px;
+  margin-top:20px;
+  margin-bottom:20px;
+  border:none;
+  border-radius:8px;
+  cursor:pointer;
+  background-color:#4166f5;
+  color:white;
+  outline:none;
+   }
+   
+  a{
+  	text-decoration:none;			
+ 				} 
+footer{
+			display:block;
+			margin-right:auto;
+		 margin-left:auto;
+		 text-align:center;
+		 color:gray;
+				}
